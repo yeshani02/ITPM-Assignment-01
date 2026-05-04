@@ -9,10 +9,11 @@ import openpyxl
 from openpyxl.cell.cell import MergedCell
 
 # Configuration
-ROOT_DIR = Path(__file__).resolve().parent.parent
-TESTS_DIR = ROOT_DIR / "test_automation"
+ROOT_DIR = Path(__file__).resolve().parent
+TESTS_DIR = ROOT_DIR
 
 DEFAULT_EXCEL_CANDIDATES = [
+    str(TESTS_DIR / "IT23669994_Assignment 1 - Test cases.xlsx"),
     str(TESTS_DIR / "Assignment 1 - Test cases.xlsx"),
 ]
 

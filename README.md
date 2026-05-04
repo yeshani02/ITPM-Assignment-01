@@ -64,7 +64,7 @@ python test_automation.py
 ### Common options
 
 ```bash
-python test_automation.py --excel "path/to/Assignment 1 - Test cases.xlsx" --sheet " Test cases"
+python test_automation.py --excel "path/to/IT23669994_Assignment 1 - Test cases.xlsx" --sheet " Test cases"
 ```
 
 Useful flags:
